@@ -99,7 +99,7 @@ header {
     border-radius: 3px;
 }
 
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 900px) {
     .navbar {
         float: none;
     }
