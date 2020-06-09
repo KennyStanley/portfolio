@@ -42,7 +42,7 @@ a, li {
 header {
     position: absolute;
     width: 100%;
-    background-color: var(--main-bg-color, #353535);
+    background-color: var(--main-bg-color, #04080F);
 }
 
 .logo {
