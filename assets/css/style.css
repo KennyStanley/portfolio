@@ -138,7 +138,7 @@ section {
 
 @media screen and (max-width: 1269px) {
     #section-one .container {
-        padding: calc(50vh - 10rem) 3em;
+        padding: calc(50vh - 11rem) 3em;
     }
     #section-one h1 span {
         display: block;
@@ -225,7 +225,7 @@ section {
 
 @media screen and (max-width: 500px) {
     #section-one .container {
-        padding: calc(50vh - 8rem) 0;
+        padding: calc(50vh - 12rem) 0;
     }
     #section-one h1 {
         font-size: 3rem;
