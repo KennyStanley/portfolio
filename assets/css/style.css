@@ -82,6 +82,7 @@ header {
     background-color: var(--main-accent-color);
     color: var(--header-color);
     border-radius: 5px;
+    margin: 0 0.5em;
 }
 
 .nav-link-btn:hover {
