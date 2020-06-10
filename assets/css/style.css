@@ -39,6 +39,7 @@ a, li {
 }
 
 header {
+    background-color: var(--dark-color);
     position: absolute;
     width: 100%;
     top: 0;
@@ -64,6 +65,7 @@ header {
 }
 
 .nav-menu {
+    background-color: var(--dark-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
