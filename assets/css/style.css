@@ -17,6 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: inherit;
+    -webkit-overflow-scrolling: touch;
 }
 
 html {
