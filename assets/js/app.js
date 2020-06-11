@@ -1,11 +1,18 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.nav-menu');
+const navLinks = document.querySelectorAll('.nav-menu a');
 
-
-menu.addEventListener('click', function() {
+function mobileMenuToggle() {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
-});
+}
+
+menu.addEventListener('click', mobileMenuToggle);
+
+for (let i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', mobileMenuToggle);
+    
+}
 
 
 $('.smooth-scroll').on('click', function(e) {
