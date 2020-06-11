@@ -43,6 +43,10 @@ a, li {
     list-style: none;
 }
 
+.scroll {
+    overflow-y: scroll;
+}
+
 header {
     background-color: var(--dark-color);
     position: absolute;
