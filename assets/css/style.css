@@ -20,7 +20,7 @@
 
 html {
     font-size: 100%;
-    overflow-x: hidden;
+    /* -webkit-overflow-scrolling: touch; */
 }
 
 body {

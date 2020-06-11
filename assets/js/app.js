@@ -1,6 +1,6 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.nav-menu');
-const arrowBtn = document.querySelector('.arrowbtn')
+
 
 menu.addEventListener('click', function() {
     menu.classList.toggle('is-active');
@@ -8,31 +8,12 @@ menu.addEventListener('click', function() {
 });
 
 
-function smoothScroll(target, duration) {
-    var target = document.querySelector(target);
-    var targetPosition = target.getBoundingClientRect().top;
-    var startPosition = window.pageYOffset;
-    var distance = targetPosition - startPosition;
-    var startTime = null;
+$('.smooth-scroll').on('click', function(e) {
+    if (this.hash !== '') {
+        e.preventDefault();
 
-    function animation(currentTime) {
-        if(startTime === null) startTime = currentTime;
-        var timeElapsed = currentTime - startTime;
-        var run = ease(timeElapsed, startPosition, distance, duration);
-        window.scrollTo(0, run);
-        if (timeElapsed < duration) requestAnimationFrame(animation);
+        const hash = this.hash;
+
+        $('html, body').animate({scrollTop: $(hash).offset().top}, 1000);
     }
-
-    function ease(t, b, c, d) {
-        t /= d / 2;
-        if (t < 1) return c / 2 * t * t + b;
-        t--;
-        return -c / 2 * (t * (t - 2) - 1) + b;
-    }
-
-    requestAnimationFrame(animation);
-}
-
-arrowBtn.addEventListener('click', function(){
-    smoothScroll(this.getAttribute('href'), 1000)
 });
