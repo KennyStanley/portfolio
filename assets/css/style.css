@@ -241,7 +241,7 @@ section {
 
 @media screen and (max-height: 550px) {
     #section-one .container {
-        padding: calc(50vh - 5rem) 3em;
+        padding: calc(50vh - 6rem) 3em;
     }
     #section-one h1 span {
         display: block;
