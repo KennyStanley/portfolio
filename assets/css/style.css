@@ -239,7 +239,25 @@ section {
     }
 }
 
-
+@media screen and (max-height: 550px) {
+    #section-one .container {
+        padding: calc(50vh - 5rem) 3em;
+    }
+    #section-one h1 span {
+        display: block;
+    }
+    #section-one h2 span {
+        display: inline-block;
+    }
+    #section-one h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+    #section-one h2 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
 
 #section-two {
     background-color: var(--green-color, #16CAB2);
