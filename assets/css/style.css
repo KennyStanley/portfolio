@@ -16,14 +16,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: inherit;
-    -webkit-overflow-scrolling: touch;
 }
 
 html {
     font-size: 100%;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
 }
 
@@ -44,7 +40,7 @@ a, li {
 }
 
 .scroll {
-    overflow-y: scroll;
+    
 }
 
 header {
