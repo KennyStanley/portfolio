@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap');
 
 :root {
     --dark-color: #121619;
@@ -19,6 +20,7 @@
 
 html {
     font-size: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -127,15 +129,37 @@ section {
     font-size: 1.5em;
     font-weight: 800;
 }
-#section-one h1 :nth-child(2)::after {
+#section-one h1 span::after {
     content: '.';
     color: var(--light-color);
     font-weight: 500;
 }
 #section-one h2 {
+    font-family: 'Source Code Pro', monospace;
     font-size: 3.5rem;
     font-weight: 400;
     margin-top: 1em;
+}
+
+div.line {
+    height: 0;
+}
+div.blue.line {
+    position: relative;
+    width: 300vh;
+    top: 1rem;
+    left: 50%;
+
+    border: 2px solid #2286D3;
+}
+div.pink.line {
+    position: absolute;
+    width: 100vh;
+    right: calc(3 * 22%);
+    top: 100vh;
+
+    border: 2px solid #D8315B;
+    transform: rotate(90deg);
 }
 
 @media screen and (max-width: 1269px) {
@@ -241,7 +265,7 @@ section {
 
 @media screen and (max-height: 550px) {
     #section-one .container {
-        padding: calc(50vh - 6rem) 3em;
+        padding: calc(50vh - 6rem) 0em;
     }
     #section-one h1 span {
         display: block;
