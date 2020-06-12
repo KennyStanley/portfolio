@@ -127,26 +127,32 @@ section {
 #section-one .container {
     padding: calc(50vh - 6rem) 3em 2rem 3em;
 }
-#section-one h1 {
+.main-title {
     font-size: 4.5rem;
     font-weight: 500;
 }
-#section-one h1 span {
+.main-title span {
     color: var(--pink-color);
     font-size: 1.5em;
     font-weight: 800;
 }
 /* This adds a period after 'Kenny Stanley' in section one*/
-/* #section-one h1 span::after {
+/* .main-title span::after {
     content: '.';
     color: var(--light-color);
     font-weight: 500;
 } */
-#section-one h2 {
+.main-subtitle {
     font-family: 'Source Code Pro', monospace;
     font-size: 3.5rem;
     font-weight: 400;
     margin-top: 1em;
+}
+.anim-typewriter {
+    width: max-content;
+    margin: 1em auto 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
