@@ -3,9 +3,9 @@
 gsap.from('.main-title', {opacity: 0, duration: 1, y: -400, ease: "power2.inOut"});
 gsap.from('.main-subtitle', {opacity: 0, duration: 2, delay: 2, ease: "power2.inOut"});
 
-gsap.from('.pink.line', {opacity: 0, duration: 5, y: -1500, ease: "power2.inOut"});
-gsap.from('.blue.line', {opacity: 0, duration: 3.5, x: 1500, ease: "power2.inOut"});
-gsap.from('.arrow-btn', {opacity: 0, duration: 2, x: -1500, ease: "power2.inOut"});
+gsap.from('.pink.line', {opacity: 0, duration: 5, y: -1000, ease: "power2.inOut"});
+gsap.from('.blue.line', {opacity: 0, duration: 3.5, x: 1000, ease: "power2.inOut"});
+gsap.from('.arrow-btn', {opacity: 0, duration: 2, x: -1000, ease: "power2.inOut"});
 
 // const t1 = new TimelineMax();
 
