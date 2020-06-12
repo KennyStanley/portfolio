@@ -148,12 +148,12 @@ section {
     font-weight: 400;
     margin-top: 1em;
 }
-.anim-typewriter {
+/* .anim-typewriter {
     width: max-content;
     margin: 1em auto 0 auto;
     overflow: hidden;
     white-space: nowrap;
-}
+} */
 
 
 div.line {
