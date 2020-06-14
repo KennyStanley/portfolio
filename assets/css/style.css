@@ -82,6 +82,7 @@ header {
 }
 
 .nav-link {
+    /* width: 50%; */
     text-transform: lowercase;
     padding: 0 0.8em;
 }
@@ -249,7 +250,7 @@ div.pink.line {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 50%;
+        /* width: 50%; */
         position: absolute;
         top: 80px;
         right: -100%;
@@ -265,7 +266,6 @@ div.pink.line {
 
     .nav-link {
         text-align: center;
-        width: 100vw;
 
         font-size: 8vmin;
         line-height: calc((80vh - var(--header-height)) / 5);
