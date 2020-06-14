@@ -176,6 +176,7 @@ section {
 
 div.line {
     display: inline-block;
+    z-index: 1;
 }
 div.blue.line {
     position: relative;
