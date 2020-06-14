@@ -175,6 +175,7 @@ section {
 
 div.line {
     display: inline-block;
+    display: none !important;
 }
 div.blue.line {
     position: relative;
