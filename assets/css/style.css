@@ -175,7 +175,6 @@ section {
 
 div.line {
     display: inline-block;
-    z-index: 1;
 }
 div.blue.line {
     position: relative;
@@ -195,6 +194,7 @@ div.pink.line {
     left: 5vw;
     top: 50vh;
     border: 2px solid #D8315B;
+    z-index: 1;
 }
 
 .arrow-container {
