@@ -128,11 +128,11 @@ section {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    max-width: 600px;
 }
 
 .main-title {
-    font-size: 2rem;
+    font-size: calc(0.3rem + 5vmin);
     font-weight: 500;
 }
 #section-one span {
@@ -140,7 +140,7 @@ section {
 }
 .main-title span {
     color: var(--pink-color);
-    font-size: 1.5em;
+    font-size: calc(0.5em + 5vmin);
     font-weight: 800;
 }
 /* This adds a period after 'Kenny Stanley' in section one*/
@@ -151,7 +151,7 @@ section {
 } */
 .main-subtitle {
     font-family: 'Source Code Pro', monospace;
-    font-size: 1.5rem;
+    font-size: calc(0.05em + 5vmin);
     font-weight: 400;
     margin-top: 1em;
 }
@@ -194,10 +194,10 @@ div.pink.line {
     margin: 1rem 0;
 }
 .arrow-btn {
-    height: calc(0.5 * 10vw);
-    width: calc(0.5 * 10vw);
-    min-width: 50px;
-    min-height: 50px;
+    height: calc(1rem + 5vmin);
+    width: calc(1rem + 5vmin);
+    // min-width: 50px;
+    // min-height: 50px;
 
     margin: 0 auto;
 
